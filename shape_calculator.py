@@ -54,7 +54,3 @@ class Square(Rectangle):
   def set_side(self, side):
     self.width = side
     self.height = side
-
-  def trach_changes(self):
-    print(f'this is just a dummy method {self.width}')
-
